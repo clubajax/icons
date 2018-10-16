@@ -2,11 +2,48 @@
 @l: 30px;
 @q: 14px;
 
-icon-add{
+icon-anchor,
+icon-add,
+icon-check,
+icon-edit,
+icon-export,
+icon-eye,
+icon-funnel,
+icon-logout,
+icon-move,
+icon-trash,
+icon-upload,
+icon-warning,
+icon-error,
+icon-undo,
+icon-redo
+{
 	display: inline-block;
 	width: @q;
 	height: @q;
 	svg{
 		display: block;
+	}
+}
+
+icon-funnel {
+	.icon-funnel-ellipse {
+		fill: white;
+		stroke: #ccc;
+		stroke-width: 1px;
+	}
+	.icon-funnel-path {
+		fill: black;
+	}
+}
+
+icon-anchor{
+	svg{
+		stroke: #000;
+		path, circle{
+			stroke-width: 2px;
+			fill: none;
+			stroke-linecap: round;
+		}
 	}
 }

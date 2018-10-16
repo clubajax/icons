@@ -9,32 +9,6 @@
 			font-family: sans-serif;
 			background-color: #ccc;
 		}
-
-		.smaller {
-			padding: 10px;
-			background-color: #163C5C;
-			width: 160px;
-			border: 1px solid red;
-		}
-
-		icon-logout {
-			width: 24px;
-			height: 24px;
-		}
-
-		icon-edit {
-			width: 24px;
-			height: 24px;
-		}
-		icon-wordcloud{
-
-		}
-		icon-wave{
-			width: 100px;
-		}
-		icon-spinner{
-
-		}
 		#btns{
 			margin-bottom: 5px;
 		}
@@ -42,9 +16,12 @@
 			margin-right: 2px;
 			border: 1px solid #eee;
 		}
-		ui-button{
-			margin-right: 2px;
+
+		icon-error{
+			/*width: 100px;*/
+			/*height: 100px;*/
 		}
+
 	</style>
 </head>
 <body>
@@ -62,85 +39,23 @@
 			disabled = true;
 
 		dom('icon-add', {}, icns);
+		dom('icon-anchor', {}, icns);
+		dom('icon-check', {}, icns);
+		dom('icon-edit', {}, icns);
+		dom('icon-export', {}, icns);
+		dom('icon-eye', {}, icns);
+		dom('icon-eye', { strike: true }, icns);
+		dom('icon-funnel', {}, icns);
+		dom('icon-logout', {}, icns);
+		dom('icon-move', {}, icns);
+		dom('icon-trash', {}, icns);
+		dom('icon-upload', {}, icns);
+		dom('icon-warning', {}, icns);
+		dom('icon-error', {}, icns);
+		dom('icon-undo', {}, icns);
+		dom('icon-redo', {}, icns);
 
-		// const data = [
-		// 	{
-		// 		label: 'Download Thing One',
-		// 		value: 'aaa'
-		// 	}, {
-		// 		label: 'Download Thing Two',
-		// 		value: 'bbb'
-		// 	}
-		// ];
-		// dom('action-button', { data: data, label: 'icon-move', 'btn-class': 'btn drop tool' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-undo' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-redo' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-anchor' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-move' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-add' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-trash' }, btns);
-		// dom('ui-button', { disabled: disabled, class: 'tool blue', label: 'icon-variable' }, btns);
-		//
-		//
-		// dom('icon-link', {}, icns);
-		// dom('icon-repeating', {}, icns);
-		// dom('icon-ranking', {}, icns);
-		// dom('icon-numeric', {}, icns);
-		// dom('icon-media', {}, icns);
-		// dom('icon-variable-small', {}, icns);
-		// dom('icon-multi-grid', {}, icns);
-		// dom('icon-single-grid', {}, icns);
-		// dom('icon-multi-select', {}, icns);
-		// dom('icon-checkbox', {}, icns);
-		// dom('icon-single-select', {}, icns);
-		// dom('icon-message', {}, icns);
-		// dom('icon-text', {}, icns);
-		// dom('icon-drop-down-select', {}, icns);
-		// dom('icon-skip-logic', {}, icns);
-		// dom('icon-display-logic', {}, icns);
-		// dom('icon-auto-code', {}, icns);
-		//
-		// dom('icon-upload', {}, body);
-		//
-		// dom('icon-spinner', {}, body);
-		//
-		// dom('icon-funnel', {}, body);
-		//
-		// dom('icon-wave', {}, body);
-		//
-		// dom('icon-trash', {}, body);
-		// dom('icon-edit', {}, body);
-		// dom('icon-logout', {}, body);
-		// dom('icon-eticket', {}, body);
-		// dom('icon-check', {}, body);
-		// dom('icon-smartar', { class: 'smaller' }, body);
-		// dom('icon-smartar-horz', { }, body);
-		// dom('icon-wordcloud', {}, body);
-		// dom('icon-tag', {}, body);
-		// dom('icon-export', {}, body);
-		//
-		// dom('icon-norms', {}, body);
-		// dom('icon-demographics', {}, body);
-		// dom('icon-executive-summary', {}, body);
-		// dom('icon-purchase-behavior', {}, body);
-		// dom('icon-concept-test', {}, body);
-		//
-		// dom('icon-tag', {
-		// 	width: 24,
-		// 	height: 40,
-		// 	arrow: 10,
-		// 	dot: 5
-		// }, body);
-		//
-		// dom('icon-eye', {}, body);
-		// dom('icon-eye', { 'strike': true }, body);
-		//
-		// dom('button', {
-		// 	html: dom('icon-eye', {
-		// 		color: 'red',
-		// 		'hover-color': 'blue'
-		// 	}, body)
-		// }, body);
+
 
 </script>
 

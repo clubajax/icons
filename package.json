@@ -12,15 +12,12 @@
     "@babel/preset-env": "^7.1.0",
     "@clubajax/custom-elements-polyfill": "^0.9.3",
     "babelify": "^10.0.0",
-    "chai": "^4.2.0",
-    "express": "^4.16.4",
     "grunt": "^1.0.3",
     "grunt-browserify": "^5.3.0",
     "grunt-concurrent": "^2.3.1",
     "grunt-contrib-less": "^2.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-http-server": "^2.1.0",
-    "mocha": "^5.2.0"
+    "grunt-http-server": "^2.1.0"
   },
   "dependencies": {
     "@clubajax/base-component": "^2.2.2",

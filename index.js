@@ -1,1 +1,15 @@
 require('./src/add');
+require('./src/anchor');
+require('./src/check');
+require('./src/edit');
+require('./src/export');
+require('./src/eye');
+require('./src/funnel');
+require('./src/logout');
+require('./src/move');
+require('./src/trash');
+require('./src/upload');
+require('./src/warning');
+require('./src/error');
+require('./src/undo');
+require('./src/redo');
